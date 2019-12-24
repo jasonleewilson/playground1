@@ -9,9 +9,9 @@ export class DateComponent implements OnInit {
 
   dataMessage: string;
 
-  constructor() { 
+  constructor() {
     setInterval(() => {
-      let currentDate = new Date();
+      const currentDate = new Date();
       this.dataMessage = currentDate.toDateString() + ' ' + currentDate.toLocaleTimeString();
     } , 1000);
   }
