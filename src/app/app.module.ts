@@ -7,13 +7,11 @@ import { DateComponent } from './date/date.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatSliderModule } from '@angular/material/slider';
 import { MaterialModule } from './material';
-import { HtmlElementsComponent } from './html-elements/html-elements.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    DateComponent,
-    HtmlElementsComponent
+    DateComponent
   ],
   imports: [
     BrowserModule,
