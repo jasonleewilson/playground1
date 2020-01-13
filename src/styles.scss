@@ -1,16 +1,18 @@
-// RESET
-body {
-    background: #0096fa;
-    font: 1em sans-serif;
-}
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
 
-p {
-    // margin: 20% auto;
-    // width: 100%;
-    text-align: center;
-    // writing-mode: vertical-lr;
-    cursor: default;
-    // color: #fff;
-}
-html, body { height: 100%; }
+// RESET
+// body {
+//     background: #0096fa;
+//     font: 1em sans-serif;
+// }
+
+// p {
+//     margin: 20% auto;
+//     width: 100%;
+//     text-align: center;
+//     writing-mode: vertical-lr;
+//     cursor: default;
+//     color: #fff;
+// }
+// html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
