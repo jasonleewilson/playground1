@@ -8,12 +8,15 @@ import { Component, OnInit } from '@angular/core';
 export class DateComponent implements OnInit {
 
   dataMessage: string;
+  initialDelay: any;
 
   constructor() {
     setInterval(() => {
       const currentDate = new Date();
+      const initialDelay = 2 * 1000;
+
       this.dataMessage = currentDate.toDateString() + ' ' + currentDate.toLocaleTimeString();
-    } , 1000);
+    } , this.initialDelay);
   }
 
   ngOnInit() {

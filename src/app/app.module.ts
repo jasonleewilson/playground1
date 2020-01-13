@@ -17,8 +17,7 @@ import {MatMenuModule} from '@angular/material/menu';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MaterialModule,
-    MatMenuModule
+    MaterialModule
   ],
   providers: [],
   bootstrap: [AppComponent]
